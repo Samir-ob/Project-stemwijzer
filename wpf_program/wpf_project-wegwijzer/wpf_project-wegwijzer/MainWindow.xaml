@@ -47,10 +47,10 @@
         </Grid>
         <Grid x:Name="grid_StandpuntPagina" Visibility="Hidden" Grid.Column="1">
             <ListBox Background="Red" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <ListBoxItem>grid 1</ListBoxItem>
+                <ListBoxItem>temp items</ListBoxItem>
                 <ListBoxItem>grid</ListBoxItem>
-                <ListBoxItem>gri</ListBoxItem>
-                <ListBoxItem>iifkm</ListBoxItem>
+                <ListBoxItem>grid</ListBoxItem>
+                <ListBoxItem>grid</ListBoxItem>
             </ListBox>
         </Grid>
     </Grid>

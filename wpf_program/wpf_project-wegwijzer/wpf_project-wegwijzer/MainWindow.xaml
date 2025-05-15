@@ -1,0 +1,57 @@
+﻿<Window x:Class="wpf_project_wegwijzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_project_wegwijzer"
+        mc:Ignorable="d"
+                Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+
+
+
+
+
+            <Rectangle Fill="Yellow" Width="200px" HorizontalAlignment="Left"></Rectangle>
+            <Button x:Name="btn_NieuwsPagina" Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Click="btn_NieuwsPagina_Click">Nieuwsartikel beheer</Button>
+            <Button x:Name="btn_StandpuntPagina" Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,0" Click="btn_StandpuntPagina_Click">standpuntenbeheer</Button>
+            <Button Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,110,0,0">politieke partij beheer</Button>
+            <Button Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,160,0,0">verkiezing beheer</Button>
+            <Button Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,210,0,0">reacties beheer</Button>
+            <Button Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,260,0,0">Account beheer</Button>
+            <Button Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,310,0,0">beheerders beheer</Button>
+
+
+
+        </Grid>
+        <!-- Page contents grid -->
+        <Grid x:Name="grid_NieuwsPagina" Visibility="Visible" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Width="200px" Height="20px" HorizontalAlignment="Left" VerticalAlignment="Top">Nieuws:</TextBlock>
+            <ListBox x:Name="Nieuws_Header" Grid.Column="1" Height="187" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+            </ListBox>
+            <Button  Grid.Column="1" Width="80px" Height="20px" Margin="0,200,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">Toevoegen</Button>
+            <Button  Grid.Column="1"  Width="80px" Height="20px" Margin="90,200,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">verwijderen</Button>
+            <Button  Grid.Column="1"  Width="80px" Height="20px" Margin="180,200,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">Wijzigen</Button>
+            <Button  Grid.Column="1"  Width="80px" Height="20px" Margin="270,200,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">zoeken</Button>
+
+        </Grid>
+        <Grid x:Name="grid_StandpuntPagina" Visibility="Hidden" Grid.Column="1">
+            <ListBox Background="Red" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ListBoxItem>grid 1</ListBoxItem>
+                <ListBoxItem>grid</ListBoxItem>
+                <ListBoxItem>gri</ListBoxItem>
+                <ListBoxItem>iifkm</ListBoxItem>
+            </ListBox>
+        </Grid>
+    </Grid>
+</Window>

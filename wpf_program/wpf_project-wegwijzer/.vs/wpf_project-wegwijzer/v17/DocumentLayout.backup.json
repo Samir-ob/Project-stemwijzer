@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samir\\Documents\\GitHub\\Project-stemwijzer\\wpf_program\\wpf_project-wegwijzer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C221C5-A536-4836-8C07-726F37F617B1}|wpf_project-wegwijzer\\wpf_project-wegwijzer.csproj|c:\\users\\samir\\documents\\github\\project-stemwijzer\\wpf_program\\wpf_project-wegwijzer\\wpf_project-wegwijzer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C221C5-A536-4836-8C07-726F37F617B1}|wpf_project-wegwijzer\\wpf_project-wegwijzer.csproj|solutionrelative:wpf_project-wegwijzer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C221C5-A536-4836-8C07-726F37F617B1}|wpf_project-wegwijzer\\wpf_project-wegwijzer.csproj|c:\\users\\samir\\documents\\github\\project-stemwijzer\\wpf_program\\wpf_project-wegwijzer\\wpf_project-wegwijzer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2C221C5-A536-4836-8C07-726F37F617B1}|wpf_project-wegwijzer\\wpf_project-wegwijzer.csproj|solutionrelative:wpf_project-wegwijzer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\samir\\Documents\\GitHub\\Project-stemwijzer\\wpf_program\\wpf_project-wegwijzer\\wpf_project-wegwijzer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "wpf_project-wegwijzer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\samir\\Documents\\GitHub\\Project-stemwijzer\\wpf_program\\wpf_project-wegwijzer\\wpf_project-wegwijzer\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "wpf_project-wegwijzer\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwCUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:27:50.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\samir\\Documents\\GitHub\\Project-stemwijzer\\wpf_program\\wpf_project-wegwijzer\\wpf_project-wegwijzer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "wpf_project-wegwijzer\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\samir\\Documents\\GitHub\\Project-stemwijzer\\wpf_program\\wpf_project-wegwijzer\\wpf_project-wegwijzer\\MainWindow.xaml*",
+              "RelativeToolTip": "wpf_project-wegwijzer\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T11:26:33.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
